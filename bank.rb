@@ -41,7 +41,7 @@ class Bank_Account
 			amount = gets.chomp
 		end
 		if @balance < amount.to_f
-			puts "You don't have enough money."
+			puts re"You don't have enough money."
 			amount = nil
 			check_balance
 		else
